@@ -70,14 +70,7 @@ public class GFG {
 		return null;
 	}
 	
-	// To print out the board.
-	/* |---|---|---|
-	| 1 | 2 | 3 |
-	|-----------|
-	| 4 | 5 | 6 |
-	|-----------|
-	| 7 | 8 | 9 |
-	|---|---|---|*/
+	
 	
 	static void printBoard()
 	{
@@ -156,8 +149,7 @@ public class GFG {
 			}
 		}
 		
-		// If no one win or lose from both player x and O.
-		// then here is the logic to print "draw".
+		
 		if (winner.equalsIgnoreCase("draw")) {
 			System.out.println(
 				"It's a draw! Thanks for playing.");
